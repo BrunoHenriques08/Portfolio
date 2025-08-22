@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV - Bruno Henriques</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .no-print { display: none; }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #007acc;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .contact {
+            color: #888;
+            margin-top: 10px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section h2 {
+            color: #007acc;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+            font-size: 1.5em;
+        }
+        .experience-item, .education-item {
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 3px solid #f0f0f0;
+        }
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .item-company {
+            color: #007acc;
+            font-weight: 500;
+        }
+        .item-date {
+            color: #888;
+            font-style: italic;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #007acc;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .languages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .level {
+            background: #f0f0f0;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+    </style>
+    <script>
+        // Auto-print quando aberto
+        window.onload = function() {
+            if (window.location.search.includes('print=true')) {
+                setTimeout(function() {
+                    window.print();
+                }, 1000);
+            }
+        }
+    </script>
+
+<body>
+    <div class="header">
+        <h1>Bruno Henriques</h1>
+        <div class="subtitle">Desenvolvedor Full Stack</div>
+        <div class="contact">
+            bruno@email.com | (+351) 123 456 789 | LinkedIn: bruno-henriques | GitHub: brunohenriques08
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Perfil Profissional</h2>
+        <p>Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e experiências digitais excepcionais. Com experiência sólida em React, Node.js e tecnologias modernas de desenvolvimento web. Focado em código limpo, performance e melhores práticas de desenvolvimento.</p>
+    </div>
+
+    <div class="section">
+        <h2>Experiência Profissional</h2>
+        
+        <div class="experience-item">
+            <div class="item-title">Desenvolvedor Full Stack Sénior</div>
+            <div class="item-company">Tech Solutions Lda</div>
+            <div class="item-date">Janeiro 2022 - Presente</div>
+            <ul>
+                <li>Desenvolvimento de aplicações web complexas usando React.js e Node.js</li>
+                <li>Implementação de APIs RESTful e integração com bases de dados</li>
+                <li>Otimização de performance e SEO de aplicações</li>
+                <li>Mentoria de desenvolvedores juniores e revisão de código</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="item-title">Desenvolvedor Frontend</div>
+            <div class="item-company">Digital Agency</div>
+            <div class="item-date">Março 2020 - Dezembro 2021</div>
+            <ul>
+                <li>Criação de interfaces responsivas e interativas</li>
+                <li>Desenvolvimento de componentes reutilizáveis em React</li>
+                <li>Integração com APIs e serviços de terceiros</li>
+                <li>Colaboração com designers e equipas de UX/UI</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Formação Académica</h2>
+        
+        <div class="education-item">
+            <div class="item-title">Licenciatura em Engenharia Informática</div>
+            <div class="item-company">Universidade do Porto</div>
+            <div class="item-date">2016 - 2020</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Competências Técnicas</h2>
+        <div class="skills">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">HTML5/CSS3</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Redux</span>
+            <span class="skill-tag">Express.js</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Idiomas</h2>
+        <div class="languages">
+            <div class="language-item">
+                <span>Português</span>
+                <span class="level">Nativo</span>
+            </div>
+            <div class="language-item">
+                <span>Inglês</span>
+                <span class="level">Fluente</span>
+            </div>
+            <div class="language-item">
+                <span>Espanhol</span>
+                <span class="level">Intermediário</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projetos Destacados</h2>
+        
+        <div class="experience-item">
+            <div class="item-title">E-commerce Platform</div>
+            <div class="item-company">Projeto Pessoal</div>
+            <ul>
+                <li>Plataforma completa de e-commerce com React e Node.js</li>
+                <li>Sistema de pagamentos integrado com Stripe</li>
+                <li>Dashboard administrativo e gestão de inventário</li>
+            </ul>
+        </div>
+        
+        <div class="experience-item">
+            <div class="item-title">Task Management App</div>
+            <div class="item-company">Open Source</div>
+            <ul>
+                <li>Aplicação de gestão de tarefas com interface drag-and-drop</li>
+                <li>Sincronização em tempo real com WebSockets</li>
+                <li>Autenticação JWT e autorização por roles</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
