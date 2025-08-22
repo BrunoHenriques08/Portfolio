@@ -6,11 +6,11 @@ const Skills = () => {
       icon: FiCode,
       title: 'Frontend',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'JavaScript', level: 85 },
-        { name: 'TypeScript', level: 80 },
+        { name: 'React', level: 75 },
+        { name: 'JavaScript', level: 75 },
+        { name: 'TypeScript', level: 65 },
         { name: 'CSS/SCSS', level: 85 },
-        { name: 'HTML5', level: 95 }
+        { name: 'HTML5', level: 90 }
       ]
     },
     {
@@ -29,19 +29,15 @@ const Skills = () => {
       title: 'Database',
       skills: [
         { name: 'MySQL', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'MongoDB', level: 75 },
-        { name: 'Redis', level: 70 },
-        { name: 'Firebase', level: 80 }
+        { name: 'SQLServer', level: 80 },
       ]
     },
     {
       icon: FiSmartphone,
       title: 'Ferramentas',
       skills: [
-        { name: 'Git', level: 90 },
+        { name: 'Git', level: 80 },
         { name: 'Docker', level: 75 },
-        { name: 'AWS', level: 70 },
         { name: 'Figma', level: 80 },
         { name: 'Vite', level: 85 }
       ]

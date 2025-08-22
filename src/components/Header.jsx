@@ -39,7 +39,7 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <nav className="nav container">
         <div className="nav-brand">
-          <span className="text-gradient">Bruno</span>
+          <span className="text-gradient">Bruno Henriques</span>
         </div>
 
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

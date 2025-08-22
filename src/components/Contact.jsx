@@ -34,20 +34,14 @@ const Contact = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'bruno@email.com',
-      href: 'mailto:bruno@email.com'
-    },
-    {
-      icon: FiPhone,
-      label: 'Telefone',
-      value: '+351 123 456 789',
-      href: 'tel:+351123456789'
+      value: 'bruno.henriques135@gmail.com',
+      href: 'mailto:bruno.henriques135@gmail.com'
     },
     {
       icon: FiMapPin,
       label: 'Localização',
-      value: 'Lisboa, Portugal',
-      href: 'https://maps.google.com'
+      value: 'Vale de Cambra, Aveiro, Portugal',
+      href: 'https://maps.google.com/?q=Vale+de+Cambra,+Aveiro,+Portugal'
     }
   ]
 
@@ -55,19 +49,19 @@ const Contact = () => {
     {
       icon: FiGithub,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/BrunoHenriques08',
       color: '#333'
     },
     {
       icon: FiLinkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/bruno-henriques-556006291',
       color: '#0077b5'
     },
     {
       icon: FiMail,
       label: 'Email',
-      href: 'mailto:bruno@email.com',
+      href: 'mailto:bruno.henriques135@gmail.com',
       color: '#ea4335'
     }
   ]

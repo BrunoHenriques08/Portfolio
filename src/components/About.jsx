@@ -1,7 +1,7 @@
 const About = () => {
   const stats = [
-    { number: '2+', label: 'Anos de Experiência' },
-    { number: '15+', label: 'Projetos Concluídos' },
+    { number: '5+', label: 'Anos de Experiência' },
+    { number: '3+', label: 'Projetos Concluídos' },
     { number: '5+', label: 'Tecnologias' },
     { number: '100%', label: 'Dedicação' }
   ]
@@ -12,7 +12,7 @@ const About = () => {
         <div className="section-header">
           <h2 className="section-title">Sobre Mim</h2>
           <p className="section-subtitle">
-            Conheça um pouco mais sobre a minha jornada e paixão pela programação
+            Conheça um pouco mais sobre a minha jornada
           </p>
         </div>
 
@@ -20,8 +20,10 @@ const About = () => {
           <div className="about-text">
             <p>
               Sou um desenvolvedor Full Stack apaixonado por tecnologia e inovação. 
-              Comecei a minha jornada na programação há mais de 2 anos e desde então 
-              tenho me dedicado a aprender e aplicar as mais modernas tecnologias do mercado.
+              Comecei a minha jornada no mundo da programação há mais de 5 anos quando entrei no curso GPSI 
+              (Gestão e Programação de Sistemas Informáticos) e desde então 
+              tenho-me dedicado a aprender e aplicar desde algumas tecnologias mais antigas como as mais
+              modernas.
             </p>
             <p>
               Especializo-me em desenvolvimento web com React, Node.js, e bases de dados 
@@ -30,7 +32,7 @@ const About = () => {
             </p>
             <p>
               Quando não estou a programar, gosto de estudar novas tecnologias, 
-              contribuir para projetos open source e partilhar conhecimento com a comunidade.
+              ler sobre inovação e IA.
             </p>
           </div>
 

@@ -1,0 +1,112 @@
+/* CSS específico para o Modal do PDF */
+.pdf-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  backdrop-filter: blur(5px);
+}
+
+.pdf-modal-content {
+  width: 90%;
+  height: 90%;
+  max-width: 1000px;
+  max-height: 800px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.pdf-modal-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  flex-shrink: 0;
+}
+
+.pdf-modal-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.pdf-modal-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pdf-modal-body {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  min-height: 0;
+}
+
+.pdf-modal-body iframe {
+  border: none;
+  background: white;
+  display: block;
+}
+
+.pdf-btn {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.pdf-btn-primary {
+  background-color: #007acc;
+  color: white;
+}
+
+.pdf-btn-primary:hover {
+  background-color: #005fa3;
+}
+
+.pdf-btn-ghost {
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  color: #666;
+}
+
+.pdf-btn-ghost:hover {
+  background-color: #f8f9fa;
+  color: #333;
+  border-color: #007acc;
+}
+
+@media (max-width: 768px) {
+  .pdf-modal-content {
+    width: 95%;
+    height: 85%;
+    margin: 1rem;
+  }
+  
+  .pdf-modal-header {
+    padding: 0.75rem 1rem;
+  }
+  
+  .pdf-modal-header h3 {
+    font-size: 1rem;
+  }
+}
