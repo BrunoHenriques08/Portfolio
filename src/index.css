@@ -197,13 +197,6 @@ html {
   overflow: hidden;
 }
 
-.hero-content {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 4rem;
-  align-items: center;
-  width: 100%;
-}
 
 .hero-title {
   font-size: 3.5rem;

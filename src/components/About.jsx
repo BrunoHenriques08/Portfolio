@@ -1,6 +1,6 @@
 const About = () => {
   const stats = [
-    { number: '5+', label: 'Anos de Experiência' },
+    { number: '1+', label: 'Anos de Experiência' },
     { number: '3+', label: 'Projetos Concluídos' },
     { number: '5+', label: 'Tecnologias' },
     { number: '100%', label: 'Dedicação' }
