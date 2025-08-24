@@ -197,6 +197,24 @@ html {
   overflow: hidden;
 }
 
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-text {
+  order: 1;
+}
+
+.hero-image {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-title {
   font-size: 3.5rem;
@@ -220,6 +238,7 @@ html {
   margin-bottom: 2rem;
   max-width: 500px;
 }
+
 
 .hero-buttons {
   display: flex;
